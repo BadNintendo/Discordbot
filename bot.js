@@ -44,7 +44,7 @@ client.on(Events.GuildMemberAdd, (member) => {
 	const exampleEmbed = new EmbedBuilder()
 	.setTitle('Welcome')
 	.setDescription('Now, you may select roles to access member channels for different games. Kindly go to the <#1077756914848501910> and select a role.')
-	.setAuthor({ name: 'Bot', iconURL: client.guilds.resolve('1023079512256282635').members.resolve('1072278798751510558').user.avatarURL(), url: 'https://discord.gg/rsXJtCXuhP' })
+	.setAuthor({ name: 'Bot', iconURL: client.guilds.resolve(guildId).members.resolve('1072278798751510558').user.avatarURL(), url: 'https://discord.gg/rsXJtCXuhP' })
 	.setColor('#0099ff')
 	.addFields({ name: '\u200B', value: '<@'+member.user.id+'>' },)
 	.setThumbnail(member.user.displayAvatarURL({ dynamic: true }))
