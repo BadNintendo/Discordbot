@@ -1,0 +1,22 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "bot to help people with questions and roles.",
+  "main": "bot.js",
+  "dependencies": {
+    "@discordjs/rest": "^1.5.0",
+    "discord": "^0.8.2",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "keywords": [
+    "react roles"
+  ],
+  "author": "BadNintendo",
+  "license": "MIT"
+}
